@@ -2,7 +2,7 @@ do
 
 local function run(msg, matches)
   if not is_admin(msg) then
-    return "شما دسترسی لازم ندارید"
+    return "For sudo only!"
   end
   local receiver = get_receiver(msg)
   if matches[1] == 'send' then
