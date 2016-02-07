@@ -1,5 +1,5 @@
 ﻿do
--- Random -Fosh v2.2 By @PokerFace_Dev
+-- Random -Fosh v2.2 By @makan
 function run(msg, matches)
   local answers = {
 "Fuck You".. matches[1]
