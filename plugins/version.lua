@@ -2,7 +2,9 @@ do
 
 function run(msg, matches)
   return 'CycloneTg '.. VERSION .. [[ 
-  Best of antispam bots V3 an advanced by telegram-bot! For buy groups please send Berkshire to this group.]]
+  Best of antispam bots V3 an advanced by telegram-bot! For buy groups please send nerkh to this group or review to bot mods!
+
+GoodLuck : ).]]
 end
 
 return {
