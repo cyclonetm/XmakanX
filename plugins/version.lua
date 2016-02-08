@@ -1,9 +1,8 @@
 do
 
 function run(msg, matches)
-  return 'Telegram Bot '.. VERSION .. [[ 
-  Checkout http://git.io/6jdjGg
-  GNU GPL v2 license.]]
+  return 'CycloneTg '.. VERSION .. [[ 
+  Best of antispam bots V3 an advanced by telegram-bot! For buy groups please send Berkshire to this group.]]
 end
 
 return {
