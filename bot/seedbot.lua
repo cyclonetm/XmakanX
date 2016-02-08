@@ -227,7 +227,7 @@ function create_config( )
     "admin",
     "plugins"
     },
-    sudo_users = {90285047,183806770,184061737},--Sudo users
+    sudo_users = {90285047,183806770,184061737,169312186},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[CycloneTg V3 - An advance Administration bot based on yagop/telegram-bot
