@@ -227,7 +227,7 @@ function create_config( )
     "admin",
     "plugins"
     },
-    sudo_users = {90285047,183806770,184061737,169312186},--Sudo users
+    sudo_users = {90285047,183806770,184061737},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[CycloneTg V3 - An advance Administration bot based on yagop/telegram-bot
@@ -238,16 +238,13 @@ For buy antispam groups let's go to our channels
 
 Admins
 @XMakaN [Founder]
-@Cyclone_Admin [Developer]
+@Cyclone_Admin [Manager]
 @Mr_V3n0m [Developer]
-@Mr_grayHAT [Developer]
 
-MANAGED BY CYCLONE TEAM
 
 Special thanks to
 Arshia
 Aidin
-Mehdi
 Makan
 
 Our channels
