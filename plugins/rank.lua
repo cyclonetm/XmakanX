@@ -269,10 +269,14 @@ nfo_msgs..'\n'
   'setrank <rank>[Reply]: change members rank.',  
    },  
    patterns = {  
-  "^([Ii]nfo)$",  
+  "^([Ii]nfo)$", 
+  "^[!/#$&@-+.*]([Ii]nfo)$",
   "^([Ii]nfo) (.*)$",  
+  "^[!/#$&@-+.*]([Ii]nfo) (.*)$",
   "^([Ss]etrank) (%d+) (.*)$",  
-  "^([Ss]etrank) (.*)$",  
+  "^[!/#$&@-+.*]([Ss]etrank) (%d+) (.*)$",
+  "^([Ss]etrank) (.*)$",
+  "^[!/#$&@-+.*]([Ss]etrank) (.*)$"
    },  
    run = run  
  }  
