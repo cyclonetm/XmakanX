@@ -658,30 +658,47 @@ end
 
 return {
   patterns = {
-    "^[!/](creategroup) (.*)$",
-    "^[!/](createrealm) (.*)$",
-    "^[!/](setabout) (%d+) (.*)$",
-    "^[!/](setrules) (%d+) (.*)$",
-    "^[!/](setname) (.*)$",
-    "^[!/](setgpname) (%d+) (.*)$",
-    "^[!/](setname) (%d+) (.*)$",
-        "^[!/](lock) (%d+) (.*)$",
-    "^[!/](unlock) (%d+) (.*)$",
-    "^[!/](setting) (%d+)$",
-        "^[!/](wholist)$",
-        "^[!/](who)$",
-        "^[!/](type)$",
-    "^[!/](kill) (chat) (%d+)$",
-    "^[!/](kill) (realm) (%d+)$",
-    "^[!/](addadmin) (.*)$", -- sudoers only
-    "^[!/](removeadmin) (.*)$", -- sudoers only
-    "^[!/](list) (.*)$",
-        "^[!/](log)$",
-        "^[!/](help)$",
+    "^[!/#$&@-+.*](creategroup) (.*)$",
+    "^(creategroup) (.*)$",
+    "^[!/#$&@-+.*](createrealm) (.*)$",
+    "^(createrealm) (.*)$",
+    "^[!/#$&@-+.*](setabout) (%d+) (.*)$",
+    "^(setabout) (%d+) (.*)$"
+    "^[!/#$&@-+.*](setrules) (%d+) (.*)$",
+    "^(setrules) (%d+) (.*)$",
+    "^[!/#$&@-+.*](setname) (.*)$",
+    "^(setname) (.*)$",
+    "^[!/#$&@-+.*](setgpname) (%d+) (.*)$",
+    "^(setgpname) (%d+) (.*)$",
+    "^[!/#$&@-+.*](setname) (%d+) (.*)$",
+    "^(setname) (%d+) (.*)$",
+        "^[!/#$&@-+.*](lock) (%d+) (.*)$",
+        "^(lock) (%d+) (.*)$",
+    "^[!/#$&@-+.*](unlock) (%d+) (.*)$",
+    "^(unlock) (%d+) (.*)$",
+    "^[!/#$&@-+.*](setting) (%d+)$",
+    "^(settings) (%d+)$",
+        "^[!/#$&@-+.*](wholist)$",
+        "^(wholist)$",
+        "^[!/#$&@-+.*](who)$",
+        "^(who)$",
+        "^[!/#$&@-+.*](type)$",
+        "^(type)$",
+    "^[!/#$&@-+.*](kill) (chat) (%d+)$",
+    "^[!/#$&@-+.*](kill) (realm) (%d+)$",
+    "^[!/#$&@-+.*](addadmin) (.*)$", -- sudoers only
+    "^(addadmin) (.*)$",
+    "^[!/#$&@-+.*](removeadmin) (.*)$", -- sudoers only
+    "^(removeadmin) (.*)$",
+    "^[!/#$&@-+.*](list) (.*)$",
+    "^(list) (.*)",
+        "^[!/#$&@-+.*](log)$",
+        "^(log)$",
+        "^[!/#$&@-+.*](help)$",
+        "^(help)$",
         "^!!tgservice (.+)$",
   },
   run = run
 }
 end
-
 
