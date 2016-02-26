@@ -54,7 +54,9 @@ end
 
 return {
     patterns = {
-      '^!info$'
+      '^!info$',
+      '^[!/#$&@-+.*]info$',
+      '^info$'
     },
   run = run
 }
